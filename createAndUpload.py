@@ -22,7 +22,7 @@ def lambda_handler(event, context):
 
     #test_emails=["edgeboi@gmail.com", "stephmorel8910@gmail.com", "step@gmail.com", "team@hackphs.tech", "tester2@gmail.com"]
     test_emails=[]
-    properties=["dateCreated", "fullName", "isFullyLoggedIn", "shirtSize", "school", "specialAccomadations", "dietaryRestrictions", "phone", "graduationYear", "latino", "ethnicity", "gender", "githubLink", "studyLevel","", "fullName", "street1", "street2", "city", "state", "zip5", "zip4", "deliveryPoint", "", "email", "resumeLink"]
+    properties=["dateCreated", "fullName", "isFullyLoggedIn", "shirtSize", "school", "specialAccomadations", "dietaryRestrictions", "phone", "graduationYear", "latino", "ethnicity", "gender", "githubLink", "studyLevel","", "fullName", "street1", "street2", "city", "state", "zip5", "zip4", "deliveryPoint", "", "email", "resumeLink", "hasVaccine"]
 
     notLoggedInRow=[""       , ""         , False            ,""          , ""     , ""                     , ""                   , ""    , ""               , ""      , ""         , ""      , ""          , ""          , "email", ""]
 
